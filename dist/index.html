@@ -58,7 +58,7 @@ const phaseInfo=[
 ];
 const visualAssets={sleep:'assets/visual-sleep.png',food:'assets/visual-food.png',training:'assets/visual-training.png',recovery:'assets/visual-recovery.png'};
 const moduleVisuals=['recovery','sleep','food','food','food','recovery','training','sleep','recovery','recovery','training','recovery','recovery'].map(k=>visualAssets[k]);
-const dayVisuals=['recovery','sleep','food','food','sleep','recovery','recovery','food','food','food','food','recovery','training','recovery','recovery','recovery','recovery','recovery','training','recovery','recovery'].map(k=>visualAssets[k]);
+const dayVisuals=Array.from({length:21},(_,i)=>`assets/day-${String(i+1).padStart(2,'0')}.png`);
 const lessonNotes=[
 ['Seu ponto de partida não é um diagnóstico médico. É um mapa de comportamento. Energia, sono, alimentação, treino e libido variam por muitas razões, e uma nota baixa isolada não prova testosterona baixa. O valor está em observar padrões repetidos e contexto.','Compare um dia comum com um dia em que você se sente melhor. O que muda? Horário, comida, luz, movimento e telas costumam revelar mais do que uma impressão solta.','Faça uma fotografia honesta, sem transformar desconforto em rótulo.'],
 ['O sono é um dos ambientes mais importantes para recuperação. Horário irregular, luz noturna e despertares frequentes podem reduzir disposição e atrapalhar os processos que sustentam desempenho. Uma noite ruim não define seus hormônios; semanas ruins merecem atenção.','Se você acorda cansado apesar de passar muitas horas na cama, observe regularidade, ronco, álcool, telas e temperatura. Persistência de sintomas pede avaliação profissional.','Escolha um horário de desligamento que consiga repetir, não uma promessa perfeita.'],
