@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ícone TestoMaxer">
+  <rect width="512" height="512" fill="#080909"/>
+  <rect x="32" y="32" width="448" height="448" fill="#141616" stroke="#8F1D1D" stroke-width="12"/>
+  <path d="M92 102h328v78H306v230h-100V180H92z" fill="#B38A3E"/>
+  <path d="M350 102h70v78h-70z" fill="#F2F2ED" opacity=".92"/>
+  <text x="256" y="452" text-anchor="middle" fill="#F2F2ED" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="8">21D</text>
+</svg>
